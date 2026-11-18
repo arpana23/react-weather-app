@@ -1,3 +1,7 @@
+# Live Demo
+https://weather-g-app.netlify.app/ 
+
+
 # React Weather App
 
 A responsive weather application built using React.js that fetches real-time weather information through a weather API. Users can search for cities and view current weather conditions.

@@ -1,3 +1,23 @@
+# React Weather App
+
+A responsive weather application built using React.js that fetches real-time weather information through a weather API. Users can search for cities and view current weather conditions.
+
+- Display current temperature
+- Show weather conditions
+- Responsive user interface
+
+## Technologies Used
+- React.js
+- JavaScript
+- CSS3
+- Weather API
+
+## Installation
+
+npm install
+npm run dev
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

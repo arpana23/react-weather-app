@@ -15,6 +15,7 @@ A responsive weather application built using React.js that fetches real-time wea
 ## Installation
 
 npm install
+
 npm run dev
 
 

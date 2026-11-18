@@ -1,0 +1,113 @@
+:root {
+  --white: rgb(255, 246, 235);
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(209, 152, 123);
+
+}
+
+.container {
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+  margin: 10px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.searchIcon {
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+
+.searchInput {
+  width: 350px;
+  height: 35px;
+  border-radius: 30px;
+  background: rgba(117, 34, 1, 0.7);
+  padding: 15px;
+  padding-left: 45px;
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+
+.searchBtn {
+  width: 100px;
+  margin-left: 10px;
+  height: 35px;
+  background: rgba(117, 34, 1, 0.7);
+  border-radius: 30px;
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftcard {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}
+
+.rightcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bigcard {
+  width: 100%;
+  height: 240px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(240, 183, 161, 0.7) 0%, rgba(140, 51, 16, 0.7) 50%, rgba(117, 34, 1, 0.7) 51%, rgba(191, 110, 78, 0.7) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-radius: 20px;
+}
+
+.now {
+  position: relative;
+  top: -38px;
+  left: 100px;
+}
+
+.smallcards {
+  background-color: rgba(124, 41, 9, 0.2);
+  width: 120px;
+  height: 75px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.logo {
+  background-color: rgb(165, 84, 52);
+  font-size: 23px;
+  border-radius: 100%;
+  padding: 9px;
+}
+
+.hourlyForecast {
+  background-color: rgb(165, 84, 52);
+}
+
+@media (max-width: 620px) {
+  .now {
+    left: 90px;
+  }
+}

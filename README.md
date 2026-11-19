@@ -1,6 +1,9 @@
 # Live Demo
 https://weather-g-app.netlify.app/ 
 
+# Screenshot
+<img width="1920" height="784" alt="react-weather" src="https://github.com/user-attachments/assets/348d0011-d68b-439d-9a72-b3b75f9ab368" />
+
 
 # React Weather App
 
